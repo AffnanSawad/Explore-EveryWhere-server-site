@@ -196,10 +196,14 @@ app.put('/user/:id', async(req, res) => {
      
         $set: {
             name: updatedform.name,
-            quantity: updatedform.quantity,
-            category: updatedform.category,
+            country_name: updatedform.country_name,
+            city: updatedform.city,
+            Area: updatedform.Area,
+            photourl: updatedform.photourl,
+            season: updatedform.season,
+            popuation: updatedform.popuation,
             details: updatedform.details,
-            photourl: updatedform.photourl
+            email: updatedform.email
         }
 
 
