@@ -180,7 +180,7 @@ app.delete('/user/:id', async(req,res) => {
 
 
 
-
+        
 
 
        //UPDATE => UPDATE ER JNNO PUT USE HOI.
@@ -238,6 +238,18 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Explore-EverWhere IS RUNNING')
   })
+
+
+
+  app.get('/', (req, res) => {
+    res.send('Explore-EverWhere IS RUNNING')
+  })
+
+
+
+
+
+
   
   app.listen(port, () => {
     console.log(`Explore-EverWhere IS RUNNING on port ${port}`)
